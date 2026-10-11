@@ -1,0 +1,12 @@
+{
+  "name": "learn-nl-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Learn NL Studio - Free Documentation & Tutorials Portal",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --open",
+    "verify": "node scripts/verify-syntax.js && node scripts/audit-line-counts.js"
+  },
+  "dependencies": {}
+}

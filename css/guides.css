@@ -1,0 +1,87 @@
+.learn-hero {
+  padding: 3.5rem 0 2rem;
+  text-align: center;
+}
+.learn-title {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+.learn-sub {
+  color: var(--text-muted);
+  max-width: 680px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+}
+.search-wrapper {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  position: relative;
+}
+.search-input {
+  width: 100%;
+  padding: 14px 20px 14px 48px;
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  background: var(--card-bg);
+  color: var(--text-main);
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.25s ease;
+}
+.search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+.guide-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.guide-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-hover);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+.guide-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--badge-bg);
+  color: var(--badge-text);
+  margin-bottom: 0.8rem;
+}
+.guide-title { font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem; }
+.guide-desc { font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 1.2rem; flex-grow: 1; }
+.guide-steps-count {
+  font-size: 0.8rem;
+  color: var(--primary);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--card-border);
+  padding-top: 0.8rem;
+}
